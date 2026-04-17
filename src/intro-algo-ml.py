@@ -38,6 +38,24 @@ class Exercices:
                 m[i] = 1
         return m
 
+    def binary_to_decimal(string):
+        pass
+
+    def decimal_to_binary(num):
+        pass
+
+    def hexadecimal_to_decimal(string):
+        pass
+
+    def decimal_to_hex(num):
+        pass
+
+    def binary_to_hex(string):
+        pass
+
+    def hex_to_binary(string):
+        pass
+
 class Testing(Exercices):
     def test_convert_to_number():
         text = 'a cat'
