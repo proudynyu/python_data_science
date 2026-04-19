@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data_file = "src/notebooks/section_1/sales_predictors.csv"
+data_file = "src/notebooks/data/sales_predictors.csv"
 
 df = pd.read_csv(data_file)
 
@@ -22,3 +22,5 @@ plt.scatter(tv_column, sales_column)
 plt.xlabel("TV Budget")
 plt.ylabel("Sales")
 plt.title("Sales x TV")
+plt.show()
+
